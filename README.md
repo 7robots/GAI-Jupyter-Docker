@@ -3,7 +3,12 @@
 
 
 
-## Container Build and Launch Instructions
+## Container Build Instructions
+
+- In your build directory, make sure you've created an .env file that contains your OpenAI API key.
+- the .env file should contain the following line:
+
+API_TOKEN=myapikey
 
 docker build -t gai-jupyter .
 
