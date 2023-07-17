@@ -7,6 +7,16 @@
 
 docker build -t gai-jupyter .
 
+## Launch Jupyter
+
+/bin/sh launch.sh 
+
+- Copy the URL output from the launch script and paste into your web brower
+- This should authenticate you into Jupyter
+- In the upper left file browser on the Jupyter Notebook page, double-click on the GPT-API-Demo notebook file to start the notebook we will use for this exercise
+
+![Select Notebook](./work/select-notebook.png "Select Notebook")
+
 
 ## Container Details
 
