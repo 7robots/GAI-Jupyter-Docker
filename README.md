@@ -5,20 +5,17 @@
 
 ## Container Build Instructions
 
-- In your build directory, make sure you've created an .env file that contains your OpenAI API key.
-- the .env file should contain the following line:
+- Using your text editor of choice, update the ./container/.env file and insert your OpenAI API key into the file, write and save it
 
-API_TOKEN=myapikey
+- Now build the container image with the build script
 
-- Now build the container image
-
-docker build -t gai-jupyter .
+./build.sh
 
 ## Launch Jupyter
 
 - Run launch script to create a new container instance and run it
 
-/bin/sh launch.sh 
+./launch.sh 
 
 - Copy the URL output from the launch script and paste into your web brower
 - This should authenticate you into Jupyter
