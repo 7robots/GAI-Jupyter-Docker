@@ -21,7 +21,8 @@ cp ./env-sample ./container/.env
 
 ./launch.sh 
 
-- Copy the URL output from the launch script and paste into your web brower
+- A web broswer running Jupyter should open automatically
+- If it does not, copy the URL output from the launch script and paste into your web brower
 - This should authenticate you into Jupyter
 - In the upper left file browser on the Jupyter Notebook page, double-click on the GPT-API-Demo notebook file to start the notebook we will use for this exercise
 
