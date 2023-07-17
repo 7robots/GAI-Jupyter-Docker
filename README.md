@@ -10,9 +10,13 @@
 
 API_TOKEN=myapikey
 
+- Now build the container image
+
 docker build -t gai-jupyter .
 
 ## Launch Jupyter
+
+- Run launch script to create a new container instance and run it
 
 /bin/sh launch.sh 
 
