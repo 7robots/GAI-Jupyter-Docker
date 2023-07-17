@@ -5,6 +5,10 @@
 
 ## Container Build Instructions
 
+- Copy over a sample .env file into the container build directory
+
+cp ./env-sample ./container/.env
+
 - Using your text editor of choice, update the ./container/.env file and insert your OpenAI API key into the file, write and save it
 
 - Now build the container image with the build script
