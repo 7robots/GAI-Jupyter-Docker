@@ -1,6 +1,8 @@
 #!/bin/sh
 
-docker run -dp 8888:8888 -it --name jupyternb 7robots/gai-jupyter:latest
+docker run -v /Users/jburson/GitHub/gai-notebooks:/home/jovyan/notebooks -dp 8888:8888 -it --name jupyternb 7robots/gai-jupyter:latest 
+#docker run -dp 8888:8888 -it --name jupyternb 7robots/gai-jupyter:latest 
+
 sleep 5
 
 Echo "Copy and Paste this URL into your web browser to launch Jupyter:"
