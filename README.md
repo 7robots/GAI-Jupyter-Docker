@@ -1,5 +1,7 @@
-# GAISTEMP
- GAISTEMP Project
+# GAI Jupyter Docker Project
+
+Template for building a Docker container for running Jupyter Notebook for Generative AI experiments
+- installs Jupyter, OpenAI, and Easy LLMS
 
 
 
