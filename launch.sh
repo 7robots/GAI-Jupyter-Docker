@@ -1,6 +1,6 @@
 #!/bin/sh
 
-docker run -v /Users/jburson/GitHub/gai-notebooks:/home/jovyan/notebooks -dp 8888:8888 -it --name jupyternb 7robots/gai-jupyter:latest 
+docker run -v $HOME/GitHub/gai-notebooks:/home/jovyan/notebooks -dp 8888:8888 -it --name jupyternb 7robots/gai-jupyter:latest 
 #docker run -dp 8888:8888 -it --name jupyternb 7robots/gai-jupyter:latest 
 
 sleep 5
